@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>you are logged in!!</title>
+</head>
+<body>
+<div>
+    <p>
+        Hello {{user}}
+    </p>
+
+    <p>
+        search for name : <br>
+        <form action="/checkName" method="post">
+
+            <input type="text" name="searchName">
+            <input type="submit" value="Submit">
+        </form>
+    </p>
+
+    <p>
+        {% if name %}
+            <h3> the name is {{name}} and the gender is {{gender}}</h3>
+        {% else %}
+            <h3> give me a name!! </h3>
+        {%endif%}
+    </p>
+
+</div>
+
+
+</body>
+</html>
