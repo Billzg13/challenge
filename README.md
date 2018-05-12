@@ -20,9 +20,9 @@ The Utilities dir has the functions that are responsible for fetching data from 
 
 The Templates dir has the html files
 on '/' it will return the index.html 
-on '/send' if its a 'GET' it will return the index.html, if its a 'POST' it will return the gender.html 
-on '/admin' if it's a 'GET' it returns the adminLogin.html, if its a 'POST' it will return the adminTrue.html
-on '/checkName' if it's a 'GET' it returns the adminTrue.html, if its a 'POST' it will return the adminLogin.html
+on '/send' if its a 'GET' it will return the index.html, if its a 'POST' it will return the gender.html \n 
+on '/admin' if it's a 'GET' it returns the adminLogin.html, if its a 'POST' it will return the adminTrue.html \n
+on '/checkName' if it's a 'GET' it returns the adminTrue.html, if its a 'POST' it will return the adminLogin.html \n
 
 on /admin it will ask for your credentials to log in at the moment they are 
 username: "bill" 
