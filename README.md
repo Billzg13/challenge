@@ -14,6 +14,14 @@ won't need the API
 
 Developed with Pycharm IDE using the Flask framework and it runs on a virtual enviroment
 
+Dependecies:
+
+Flask
+requests
+json
+
+
+
 Documentation:
 
 The Utilities dir has the functions that are responsible for fetching data from the API or the Database
